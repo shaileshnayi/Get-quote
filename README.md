@@ -1,1 +1,1 @@
-# Get-quote
+# random-quote-gen

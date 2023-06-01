@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffdb58;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  max-width: 800px;
+  width: 90%;
+}
+
+.card-titel {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Stylish", sans-serif;
+  color: #000;
+}
+
+.quote-container {
+  margin-bottom: 40px;
+  background-color: rgb(226, 226, 218);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.quote-text {
+  font-size: 30px;
+  line-height: 1.5;
+  color: #000;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.quote-author {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  line-height: 1.5;
+  color: #555;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: all 0.5s ease;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.twitter-share-button {
+  background-color: #1da1f2;
+  border-radius: 100px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  padding: 15px;
+}
+
+.twitter-share-button:hover {
+  color: #fff;
+  background: #000;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+    padding: 30px;
+  }
+  .card-titel {
+    font-size: 20px;
+  }
+  .quote-text {
+    font-size: 15px;
+  }
+  .quote-author {
+    font-size: 10px;
+  }
+}
